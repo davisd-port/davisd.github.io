@@ -19,3 +19,7 @@ I will be doing this project on my own. I will be working with Rotten Tomatoes t
 ### Project Update Week 11
 
 I have decided to work with the rotten tomatoes dataset. I have been able to retrieve some data from web scraping but I will need more time with the code to make sense of it as it does not yet have any identifiers like which genre which score came from. I am purely working with numbers, so a lot of the context from written reviews is left out of the data. I have learned that it appears audience scores tend to be higher, but I did not get much as I am still working with the code. This data is not an API so I have to be careful with how I use it.
+
+### Week 12 Update
+
+I cannot figure out how to embed plotly into the github repository, however I have created some plot code listed in testcode.py. So far I have seen basic linear trends in my scatterplots, but there are some outliers I would like to look more into. Most of my struggles so far are still with code wrangling.
