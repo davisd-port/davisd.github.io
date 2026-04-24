@@ -252,5 +252,3 @@ fig5 = px.histogram(
     title="Box Office Distribution (USA)"
 )
 fig5.show()
-
-fig.write_html("critic_audience_scatter.html")
