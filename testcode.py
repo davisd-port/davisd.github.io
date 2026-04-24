@@ -200,7 +200,7 @@ fig1 = px.scatter(
     hover_data=["Critics Avg", "Audience Avg", "Rating", "Genre"],
     title="Critics vs Audience Scores (Bubble = Box Office)"
 )
-fig1.show()
+fig1.write_html("fig1_scatter.html")
 
 
 # Genre Analysis
@@ -214,7 +214,7 @@ fig2 = px.box(
     title="Critics Scores by Genre"
 )
 fig2.update_layout(xaxis_tickangle=-45)
-fig2.show()
+fig2.write_html("fig2_genre.html")
 
 
 # Rating Analysis
@@ -228,7 +228,7 @@ fig3 = px.box(
     title="Audience Scores by MPAA Rating (Cleaned)"
 )
 
-fig3.show()
+fig3.write_html("fig3_rating.html")
 
 
 # Critics vs audience
@@ -241,7 +241,7 @@ fig4 = px.scatter(
     size="Box Office Size",
     title="Critics Avg vs Audience Avg Ratings"
 )
-fig4.show()
+fig4.write_html("fig4_critics_audience.html")
 
 
 # Box Office
@@ -251,4 +251,4 @@ fig5 = px.histogram(
     nbins=20,
     title="Box Office Distribution (USA)"
 )
-fig5.show()
+fig5.write_html("fig5_boxoffice.html")
