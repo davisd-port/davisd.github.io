@@ -38,3 +38,7 @@ I cannot figure out how to embed plotly into the github repository, however I ha
 
 ### Box Office Distribution
 <iframe src="fig5.html" width="100%" height="600"></iframe>
+
+### Week 14 Update
+
+Finally got the graphs into the repository. Update later.
