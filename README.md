@@ -23,3 +23,18 @@ I have decided to work with the rotten tomatoes dataset. I have been able to ret
 ### Week 12 Update
 
 I cannot figure out how to embed plotly into the github repository, however I have created some plot code listed in testcode.py. So far I have seen basic linear trends in my scatterplots, but there are some outliers I would like to look more into. Most of my struggles so far are still with code wrangling.
+
+### Critics vs Audience Scores
+<iframe src="fig1.html" width="100%" height="600"></iframe>
+
+### Genre Analysis
+<iframe src="fig2.html" width="100%" height="600"></iframe>
+
+### Rating Analysis
+<iframe src="fig3.html" width="100%" height="600"></iframe>
+
+### Critics vs Audience Avg
+<iframe src="fig4.html" width="100%" height="600"></iframe>
+
+### Box Office Distribution
+<iframe src="fig5.html" width="100%" height="600"></iframe>
