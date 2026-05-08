@@ -41,4 +41,4 @@ I cannot figure out how to embed plotly into the github repository, however I ha
 
 ### Week 14 Update
 
-Finally got the graphs into the repository. Update later.
+Finally got the graphs into the repository. I've gotten some written analysis down in a google doc though it's not done yet. I am either going to make some kind of regression line or alter a graph to include a different kind of cluster. I am likely going to do a regression line as that has some in-class examples I can learn from. I'm planning to use slides to present but if possible I'd like to get the analysis into the project web page so I can work from there.
