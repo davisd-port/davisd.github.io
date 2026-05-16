@@ -1,4 +1,4 @@
-#Rotten Tomatoes Scores
+###Rotten Tomatoes Scores
 
 I chose to do analysis of the trends of user and critic scores on Rotten Tomatoes because I was interested to see if there was any relationships between genre or box office scores that would influence critics vs audiences. I collected this data myself from webscraping, and I specifically chose to use code from this page: "https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" because web scraping the whole website was taking too long. Help for this project comes from Stackoverflow, the professor, and my brother. The three questions I had going into this were: Does genre have an influence on whether or not something is an outlier, how do critic scores compare to audience scores, and how does the box office score influence ratings. I used a new type of data visualization called a multivariate scatter plot for data clustering which allows you to attach your legend to specific points on the graph which I learned from Stackoverflow. I needed this for researching the aformentioned outliers. 
 
