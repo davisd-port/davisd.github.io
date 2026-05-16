@@ -25,6 +25,8 @@ Critic Avg vs Audience Avg was made to get a better look at critics vs audience 
 
 Box Office Distribution is the simplest graph but I wanted a comparison across all movies. I was suprised by how little most movies made, I was expecting it to be more evenly distributed instead of skewed so far. Box office score doesn't really seem to have any correlation to scores, which suprised me.
 
+The hardest part of this project was definetely wrangling the code. The MPAA scores has many trigger warnings attached to them and I had a very difficult time cleaning up the data.
+
 # Week 9 Learning Log
 
 ### Rotten Tomatoes
