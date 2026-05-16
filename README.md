@@ -1,31 +1,35 @@
-I chose to do analysis of the trends of user and critic scores on Rotten Tomatoes because I was interested to see if there was any relationships between genre or box office scores that would influence critics vs audiences. I collected this data myself from webscraping, and I specifically chose to use code from this page: "https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" because web scraping the whole website was taking too long. Help for this project comes from Stackoverflow, the professor, and my brother. The three questions I had going into this were: Does genre have an influence on whether or not something is an outlier, how do critic scores compare to audience scores, and how does the box office score influence ratings. I used a new type of data visualization that allows you to point to specific parts of the graph and get data off of those points, mostly for user scores which I learned from Stackoverflow. I needed this for researching the aformentioned outliers. Note that box office is in the millions. 
+I chose to do analysis of the trends of user and critic scores on Rotten Tomatoes because I was interested to see if there was any relationships between genre or box office scores that would influence critics vs audiences. I collected this data myself from webscraping, and I specifically chose to use code from this page: "https://editorial.rottentomatoes.com/guide/oscars-best-and-worst-best-pictures/" because web scraping the whole website was taking too long. Help for this project comes from Stackoverflow, the professor, and my brother. The three questions I had going into this were: Does genre have an influence on whether or not something is an outlier, how do critic scores compare to audience scores, and how does the box office score influence ratings. I used a new type of data visualization for data clustering which allows you to attach your legend to specific points on the graph which I learned from Stackoverflow. I needed this for researching the aformentioned outliers. 
+
+Most of the data wrangling came down to scraping the webpages for information, translating that information into something readable, and then putting that readable information into graphs to read. A lot of the work was simply cleaning the data so it could actually be read.
+
+Note that box office is in the millions. 
 
 ### Critics vs Audience Scores
 <iframe src="fig1.html" width="100%" height="600"></iframe>
 
-Critics vs Audience Scores was the first graph I made, and served as a 'baseline' to analyse the rest of the graphs. Nothing really stood out to me except some small outliers that seemed to all be Romance movies.
+Critics vs Audience Scores was the first graph I made, and served as a 'baseline' to analyse the rest of the graphs. Nothing really stood out to me except some small outliers that seemed to all be Romance movies. The graph follows the simple trend of high scores in audiences also having high scores in critics. 
 
 ### Genre Analysis
 <iframe src="fig2.html" width="100%" height="600"></iframe>
 
-Critic Scores By Genre was where I saw most outliers, and I was suprised by the fact that Drama actually had more outliers than Romance did. Though it is not the only one, those two genres seem to be correlated with low score outliers.
+Critic Scores By Genre was where I saw most outliers, and I was suprised by the fact that Drama actually had more outliers than Romance did. Though it is not the only one, those two genres seem to be correlated with low score outliers. Notably Westerns seem to have the largest range in score.
 
 ### Rating Analysis
 <iframe src="fig3.html" width="100%" height="600"></iframe>
 
-Audience Scores by Rating was made when I got curious if there was an easier way to categorize that didn't involve as many categories unlike when sorting by genre. Unfortunately many of the movies I looked at were not rated because they were so old, so it was less helpful then I wanted.
+Audience Scores by Rating was made when I got curious if there was an easier way to categorize that didn't involve as many categories unlike when sorting by genre. Unfortunately many of the movies I looked at were not rated because they were so old, so it was less helpful then I wanted. G rated movies do seem to have the largest range however.
 
 ### Critics vs Audience Avg
 <iframe src="fig4.html" width="100%" height="600"></iframe>
 
-Critic Avg vs Audience Avg was made to get a better look at critics vs audience without using the percentage system. Audiences tend to rate movies higher than critics do on average, but critics have a more even distribution of scores across the graph.
+Critic Avg vs Audience Avg was made to get a better look at critics vs audience without using the percentage system. Audiences tend to rate movies higher than critics do on average, but critics have a more even distribution of scores across the graph. These scores seem to be more evenly distributed than the percentage scores did, so maybe this system is easier for audiences to understand.
 
 ### Box Office Distribution
 <iframe src="fig5.html" width="100%" height="600"></iframe>
 
-Box Office Distribution is the simplest graph but I wanted a comparison across all movies. I was suprised by how little most movies made, I was expecting it to be more evenly distributed instead of skewed so far. Box office score doesn't really seem to have any correlation to scores, which suprised me.
+Box Office Distribution is the simplest graph but I wanted a comparison across all movies. I was suprised by how little most movies made, I was expecting it to be more evenly distributed instead of skewed so far. Box office score doesn't really seem to have any correlation to scores, which suprised me. Most of the movies I looked at were box office failures.
 
-The hardest part of this project was definetely wrangling the code. The MPAA scores has many trigger warnings attached to them and I had a very difficult time cleaning up the data.
+The hardest part of this project was definitely wrangling the code. The MPAA scores has many trigger warnings attached to them and I had a very difficult time cleaning up the data. I also ignored written reviews in favor of numbers, which I would like to look more into if I return to this project.
 
 # Week 9 Learning Log
 
